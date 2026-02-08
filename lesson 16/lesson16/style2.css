@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: "Zen Dots", sans-serif;
+}
+
+body{
+    background-image: url(tofiq.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(128, 0, 0);
+
+    background-color: rgba(11, 2, 2, 0.5);
+
+    width: 35vw;
+
+    text-align: center;
+
+    margin-left: 35%;
+    margin-top: 15%;
+    
+    
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+body{
+    background-image: url(-photo-.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-size: 70px;
+    margin-top: 10vw;
+    margin-left: 30vw;
+    color: white;
+}
+p{
+    font-size: larger;
+    margin-left: 27vw;
+    color: white;
+}
+button{
+    font-size: 40px;
+    margin-left: 47vw;
+    margin-top: 30px;
+}
