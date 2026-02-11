@@ -1,0 +1,19 @@
+
+.hero {
+    height: 100vh;
+    background: url("travel.jpg") ;
+    color: white;
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* .cantent{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
