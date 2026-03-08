@@ -1,0 +1,54 @@
+body{
+font-family: sans-serif;
+background:#f5f5f5;
+}
+
+.card{
+width:350px;
+margin:50px auto;
+border:2px solid #999999;
+padding:20px;
+background:white;
+}
+
+img{
+width:100%;
+}
+
+h2{
+font-size:20px;
+margin:10px 0;
+}
+
+.brand{
+color:#666;
+}
+
+.price{
+color:#B12704;
+margin:10px 0;
+}
+
+.features{
+background:#bebebe;
+padding:10px;
+margin:15px 0;
+}
+
+.features p{
+margin:4px 0;
+}
+
+cttons a{
+color:#853ae0;
+margin-right:15px;
+text-decoration:none;
+}
+
+.buttons a:hover{
+text-decoration:underline;
+}
+
+.back{
+margin-top:10px;
+}
