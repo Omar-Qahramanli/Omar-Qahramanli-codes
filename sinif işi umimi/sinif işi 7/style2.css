@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.box {
+    width: 300px;
+    border: 2px solid green;
+    padding: 20px;
+    background-color: #e6ebef;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
