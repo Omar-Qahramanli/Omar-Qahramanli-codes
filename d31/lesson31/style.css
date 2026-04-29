@@ -1,0 +1,69 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f1f1f1;
+}
+
+header {
+    background: #c62828;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 15px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 20px;
+    color: red;
+}
+nav {
+    background: #b71c1c;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
