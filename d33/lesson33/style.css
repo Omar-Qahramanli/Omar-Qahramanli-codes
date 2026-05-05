@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+}
+
+
+.red-bg {
+    
+    display: flex; 
+    align-items: center; 
+    padding: 40px; 
+    
+}
+
+
+.photo img {
+    height: 500px; 
+    display: block;
+}
+
+
+.text-white {
+    background-color: white;
+    height: 400px; 
+    width: 400px;
+    padding: 40px;
+    font-family: sans-serif;
+}
+
+
+.cursive {
+    font-family: cursive;
+    font-size: 50px;
+    margin: 0 0 20px 0;
+}
+
+
+p {
+     line-height: 1.5; /*(müəllim bir dene bu kodu bilmirem onu da komek aldim ede bilmirdeim) */
+    font-size: 14px;
+}
