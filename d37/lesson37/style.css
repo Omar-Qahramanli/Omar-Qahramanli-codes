@@ -1,0 +1,152 @@
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:#eee;
+      overflow:hidden;
+      position:relative;
+    }
+
+    
+    body::before{
+      content:"";
+      position:absolute;
+      width:100%;
+      height:220px;
+      background:#d99b2b;
+      top:0;
+      left:0;
+      transform:skewY(-20deg);
+      z-index:-1;
+    }
+
+    body::after{
+      content:"";
+      position:absolute;
+      width:100%;
+      height:220px;
+      background:#d99b2b;
+      bottom:0;
+      right:0;
+      transform:skewY(-20deg);
+      z-index:-1;
+    }
+
+    .card{
+      width:900px;
+      height:500px;
+      background:#d99b2b;
+      border-radius:20px;
+      display:flex;
+      overflow:hidden;
+      box-shadow:0 5px 20px rgba(0,0,0,0.2);
+      position:relative;
+    }
+
+   
+    .left{
+      width:55%;
+      background:white;
+      clip-path:polygon(0 0, 70% 0, 100% 100%, 0 100%);
+      padding:80px 50px;
+    }
+
+    .left h1{
+      font-size:50px;
+      color:black;
+      line-height:1.1;
+    }
+
+    .left h1 span{
+      color:#d99b2b;
+      font-style:italic;
+    }
+
+    .left p{
+      margin:30px 0;
+      color:#777;
+      width:300px;
+      line-height:1.5;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 30px;
+      background:#d99b2b;
+      color:black;
+      text-decoration:none;
+      border-radius:30px;
+      font-weight:bold;
+      margin-top:20px;
+    }
+
+    .website{
+      margin-top:100px;
+      color:#777;
+      font-size:14px;
+    }
+
+   
+    .right{
+      width:45%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      position:relative;
+    }
+
+    .image-box{
+      width:320px;
+      height:320px;
+      border-radius:40px;
+      overflow:hidden;
+      box-shadow:0 0 20px rgba(255,255,255,0.5);
+    }
+
+    .image-box img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
+    
+    .discount{
+      position:absolute;
+      top:40px;
+      left:40px;
+      width:90px;
+      height:90px;
+      background:white;
+      border-radius:50%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      font-size:18px;
+      font-weight:bold;
+      transform:rotate(-15deg);
+      box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    }
+
+   
+    .icons{
+      position:absolute;
+      bottom:40px;
+      right:70px;
+      display:flex;
+      gap:15px;
+      color:black;
+    }
+
+    .icons i{
+      cursor:pointer;
+    }
+
