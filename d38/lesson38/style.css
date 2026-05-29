@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url(WhatsApp\ Image\ 2026-05-21\ at\ 22.31.28.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+   margin-left: 11vw;
+   font-size: 5vw;
+   margin-top: 5vw;
+}
+
+#description{
+    margin-top: 7vw;
+    font-size: 3vw;
+    font-weight: 200;
+    margin-left: 11vw;
+}
+
+h2{
+    margin-top: 7vw;
+    background-color: rgb(0, 0, 0, 0.3);
+    width: fit-content;
+    margin-left: 11vw;
+    padding: 2px 30px;
+    border-radius: 15px;
+    text-shadow: 0px 0px 10px black;
+}
+
+div{
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.3);
+    width: fit-content;
+    left: 50vw;
+    width: 50%;
+    bottom: 0vw;
+    border-radius: 30px;
+}
+
+select{
+    background-color: transparent;
+    color: white;
+    font-size: 1vw;
+    border: none;
+    text-shadow: 0px 2px 0px black;
+}
+
+form{
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+i{
+    text-shadow: 0px 2px 0px black;
+}
+
+h3{
+    font-size: 30px;
+}
+
+label,input{
+    display: block;
+    margin-top: 20px;
+    font-size: 1vw;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 0px black;
+}
+
+#terms-label, #terms{
+    display: inline-block;
+    width: auto;
+    margin-top: 10px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1vw;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 162, 255, 0.5);
+    color: white;
+    box-shadow: 0px 2px 0px black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(0, 162, 255);
+    transition: 0.3s;
+}
+
+button, input{
+    display: block;
+    width: 100%;
+}
+
+#google{
+    background-color: rgb(118, 118, 118, 0.3);
+}
+
+#google:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+
+label, input:hover{
+    background-color: rgb(0, 0, 0, 0.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
